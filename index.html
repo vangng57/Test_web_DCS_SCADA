@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My first wedsite</title>   
+        <title>Web server</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="FB/jquery-3.7.1.min.js"></script>
+        <script src="FB/justgage.js"></script>
+        <script src="FB/raphael-2.1.4.min.js"></script>
+        <link ref = "stylesheet" href = "CSS/button.css">
+        <!--// Chuong trinh con -->
+        <script src="FC/FC1_Common.js"></script>
     </head>
-    <body>
-        <h1> This is an h1 heading</h1>
-        <h1> This is an h1 heading</h1>
-        <h2> This is an h2 heading</h2>
 
-        <p>
-            Vang dep trai
-            Vang dep traiVang dep trai
-            Vang dep trais
-        </p>
-        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw&t=17s">
-            click me
-        </a>
+    <body>
+        <label>Đầu ra máy trộn</label>
+        <input id="tbx_may_tron" disabled = "disabled" type="text" />
+        <br /><br />
+        <button id="btt_Save" onmousedown="fn_Saving()">Lưu</button>
+        <button id="btt_Edit" onmousedown="fn_Editing()">Sửa</button>
     </body>
 </html>
